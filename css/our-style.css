@@ -1,11 +1,12 @@
 .index-stamp {
     display: block;
     margin: auto;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .fh5co-bg .index-img-foot{
     background-image: url(images/bg_1.jpg);
+    background: rgba(0, 0, 0, 0.4);
     opacity: 0.5;
 }
