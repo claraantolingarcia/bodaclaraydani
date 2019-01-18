@@ -47,3 +47,12 @@
     margin-bottom: 5%;
     font-family: 'monolite', Arial;
 }
+
+@media screen and (max-width: 480px) {
+    .index-stamp {
+        display: block;
+        margin: auto;
+        height: 85%;
+        width: 85%;
+    }
+}
