@@ -409,14 +409,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  /*height: 850px;*/
+  height: 1400px;
   float: left;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
 #fh5co-event .display-t,
 #fh5co-event .display-tc {
-  height: 700px;
+  /*height: 700px;*/
   display: table;
   width: 100%;
 }
@@ -1253,7 +1254,7 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #828282;
 }
@@ -1647,7 +1648,12 @@ form label {
   color: #fff;
   background: #fff;
 }
-.fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
+
+.fh5co-nav-toggle.fh5co-nav-white > i::before {
+  background: #fff;
+}
+
+.fh5co-nav-toggle.fh5co-nav-white > i::after {
   background: #fff;
 }
 

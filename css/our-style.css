@@ -35,13 +35,22 @@
     width: 65%;
 }
 
+@media screen and (max-width: 480px) {
+    .index-stamp {
+        display: block;
+        margin: auto;
+        height: 85%;
+        width: 85%;
+    }
+}
+
 .fh5co-bg .index-img-foot{
     background-image: url(images/bg_1.jpg);
     background: rgba(0, 0, 0, 0.4);
     opacity: 0.5;
 }
 
-.normal-paragraph{
+.normal-paragraph {
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -49,10 +58,39 @@
 }
 
 @media screen and (max-width: 480px) {
-    .index-stamp {
+    .normal-paragraph {
+        margin: 5%;
+        font-family: 'monolite', Arial;
+    }
+}
+
+.container .transport {
+    margin-left: 15%;
+}
+
+.car-img {
+    display: block;
+    margin: auto;
+    height: 65%;
+    width: 65%;
+}
+
+@media screen and (max-width: 480px) {
+    .container .transport {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+   
+    .car-img {
         display: block;
-        margin: auto;
-        height: 85%;
-        width: 85%;
+        margin-left: 25%;
+        height: 30%;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fh5co-nav {
+        background-color: transparent;
     }
 }

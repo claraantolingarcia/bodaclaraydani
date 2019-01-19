@@ -1,62 +1,29 @@
-
-TITLE: 
-Wedding - 100% Fully Responsive Free HTML5 Bootstrap Template
-
-AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
-
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Cosas que faltan:
 
 
-CREDITS:
+Inicio:
 
-Bootstrap
-http://getbootstrap.com/
+· poner la imagen donde pone "Nos casamos" igual de oscura que la imagen del pie
+· cambiar los estilos de los textos
+· hacer que funcion el botón "Voy" cuando confirmas asistencia
 
-jQuery
-http://jquery.com/
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+Dónde:
 
-Modernizr
-http://modernizr.com/
+· poner la imagen donde pone "Nos casamos" igual de oscura que la imagen del pie
+· cambiar los estilos de los textos
+· conseguir que no se esconda el texto
+· añadir lo de para apuntarse para el autobús
 
-Google Fonts
-https://www.google.com/fonts/
 
-Google Map
-http://maps.google.com/
+Alojamiento:
 
-Icomoon
-https://icomoon.io/app/
+· no lo he tocado casi aún
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-animate.css
-http://daneden.me/animate
+Baile
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+· falta todo
 
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
 
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
-
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-Magnific Popup
-http://dimsemenov.com/plugins/magnific-popup/
-
-SimplyCountDown JS
-http://vincentloy.github.io/simplyCountdown.js/
-
-Demo Images:
-http://unsplash.com
-
+Confirmar asistencia (si está abajo de cada página es necesario este punto? o lo quitamos de abajo del todo?)
