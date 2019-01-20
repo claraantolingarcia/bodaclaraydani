@@ -94,3 +94,38 @@
         background-color: transparent;
     }
 }
+
+.hotel {
+    height: 500px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    border-radius: 5%;
+}
+
+.image_1 {
+    background-image: url(../images/hotel_villalba.jpg);
+}
+
+.image_2 {
+    background-image: url(../images/hotel_galaico.jpg);
+}
+
+.hotel_text {
+    padding-top: 5%;
+}
+
+.header-image {
+    background-color: rgba(0,0,0,0.8);
+    background-image: url(../images/bg_1.jpg);
+    filter: brightness(0.6);
+}
+
+.foot-image {
+    background-image: url(../images/bg_1.jpg);
+    opacity: 0.8;
+}
+
+.btn-hotel {
+    
+}

@@ -1,24 +1,24 @@
 Cosas que faltan:
 
+General
+
+· poner el texto de cada encabezadoen blanco sin que le afecte la opacidad
 
 Inicio:
 
-· poner la imagen donde pone "Nos casamos" igual de oscura que la imagen del pie
 · cambiar los estilos de los textos
 · hacer que funcion el botón "Voy" cuando confirmas asistencia
 
 
 Dónde:
 
-· poner la imagen donde pone "Nos casamos" igual de oscura que la imagen del pie
 · cambiar los estilos de los textos
-· conseguir que no se esconda el texto
 · añadir lo de para apuntarse para el autobús
 
 
 Alojamiento:
 
-· no lo he tocado casi aún
+· cambiar los estilos de los textos
 
 
 Baile

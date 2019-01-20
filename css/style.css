@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url(../images/bg_index.jpg);
+  background-image: url(../images/bg_1.jpg);
   opacity: 0.5;
 }
 .fh5co-cover > .fh5co-container {
@@ -746,9 +746,17 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  border-radius: 5%;
 }
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  border-radius: 5%;
 }
 #fh5co-gallery-list li a .case-studies-summary {
   width: auto;
@@ -780,16 +788,16 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 20px;
   }
 }
-#fh5co-gallery-list li.one-third {
-  width: 32.3%;
+#fh5co-gallery-list li.one-harlf {
+  width: 49%;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li.one-third {
+  #fh5co-gallery-list li.one-harlf {
     width: 49%;
   }
 }
 @media screen and (max-width: 480px) {
-  #fh5co-gallery-list li.one-third {
+  #fh5co-gallery-list li.one-harlf {
     width: 100%;
   }
 }
@@ -896,6 +904,7 @@ form label {
   margin: 0;
   padding: 0;
   color: white;
+  filter: brightness(1);
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
