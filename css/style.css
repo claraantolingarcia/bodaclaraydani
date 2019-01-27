@@ -948,7 +948,6 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: var(--main-text-green);
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -1139,9 +1138,10 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
+  /*font-family: "Sacramento", Arial, serif;*/
+  font-family: "queen", Arial, serif;
   color: var(--main-text-green);
-  font-size: 30px;
+  font-size: 37px;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -1888,7 +1888,7 @@ form label {
   box-shadow: none;
   background: transparent;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 54px;
+  height: 40px;
   font-size: 18px;
   font-weight: 300;
 }

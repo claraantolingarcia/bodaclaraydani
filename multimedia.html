@@ -12,6 +12,20 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
@@ -41,7 +55,6 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style-palette-colors.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/our-style.css">
 
@@ -54,26 +67,29 @@
 
 	</head>
 	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
 
 	<!-- MENU -->
 
-	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Inicio</a></li>
+						<li><a href="index.html">Inicio</a></li>
 						<li><a href="where.html">Dónde</a></li>
 						<li><a href="accommodation.html">Alojamiento</a></li>
-						<li><a href="multimedia.html">Música y galería</a></li>
+						<li class="active"><a href="multimedia.html">Música y galería</a></li>
 						<li><a href="galery.html">Galería</a></li>
 						<li><a href="save-the-date.html">Confirmar asistencia</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
-	</nav>	
+	</nav>
 
 	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm header-image" role="banner">
 		<div class="overlay"></div>
@@ -82,7 +98,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h2>¡Nos casamos!</h2>
+							<h2>¡Música y fotos de la boda!</h2>
 						</div>
 					</div>
 				</div>
@@ -90,42 +106,40 @@
 		</div>
 	</header>
 
-	<div id="fh5co-couple">
+	<div id="fh5co-couple" class="fh5co-section-gray">
 		<div class="container">
-			<div class="index-stamp">
-				<img class="index-stamp" src="images/sello_color_sin_margen.png">
-			</div>
-			<div class="normal-paragraph fh5co-heading animate-box">
-				<p>¡Que si! ¡Que nos casamos!</p>
-				<p>Estamos muy felices y queríamos compartir con vosotros este día que con tanto mimo estamos 
-					preparando para que sea un día inolvidable.</p>
-				<p>Mientras es acerca el día hemos creado esta web donde encontrarás la información necesaria con respecto a nuestra boda, 
-					si ves que te falta algo por saber no dudes en consultárnoslo:</p>
-			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="groom">
-						<img src="images/clara.png" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-groom">
-						<h3>Clara Antolín</h3>
-						<p>680802595</p>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>¡Elige la música!</h2>
+					<p>Tenemos preparadas muchas canciones para el baile que espero que os gusten pero si tienes alguna cancion o canciones que te gustaría
+						que sonasen ese día añádelas!
+					</p>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-10 col-md-offset-1">
+						<form class="form-inline">
+							<div class="col-md-4 col-sm-4">
+								<div class="form-group">
+									<label for="song" class="sr-only">Nombre de la canción</label>
+									<input type="name" class="form-control" id="name" placeholder="Nombre de la canción">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<button type="submit" class="btn btn-default btn-block">¡Añadir canción!</button>
+							</div>
+						</form>
 					</div>
 				</div>
-				
-				<div class="couple-half">
-					<div class="bride">
-						<img src="images/dani.png" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-bride">
-						<h3>Daniel Fernández-Vegue</h3>
-						<p>677697835</p>
-					</div>
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2>¡Galería de fotos!</h2>
+					<p>Después de la boda subiremos las fotos aqui!</p>
 				</div>
-			</div>			
+			</div>
 		</div>
 	</div>
+			
 
+	
 	<div id="fh5co-started" class="fh5co-bg index-img-foot" style="background-image: url(images/bg_1.jpg); opacity: 0.8;">
 		<div class="overlay"></div>
 		<div class="container">
@@ -154,12 +168,6 @@
 			</div>
 		</div>
 	</div>
-
-	</div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
 	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -180,29 +188,8 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
-	<script>
-    var d = new Date(2019, 4, 25, 20);
-
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
-
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
 
 	</body>
 </html>
