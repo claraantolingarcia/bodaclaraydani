@@ -1414,6 +1414,9 @@ form label {
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
 }
+#fh5co-started .fh5co-heading h2 a{
+  color: #fff;
+}
 #fh5co-started .fh5co-heading p {
   color: white;
 }
@@ -1444,7 +1447,10 @@ form label {
   color: #fff;
 }
 #fh5co-started .form-control:focus {
-  background: rgba(255, 255, 255, 0.3);
+  /*background: rgba(255, 255, 255, 0.3);*/
+  background: #fff;
+  color: var(--main-text-green);
+  font: bold 14px/.4 Helvetica;
 }
 #fh5co-started .btn {
   height: 54px;
@@ -1888,7 +1894,7 @@ form label {
   box-shadow: none;
   background: transparent;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  height: 40px;
+  height: 54px;
   font-size: 18px;
   font-weight: 300;
 }

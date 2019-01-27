@@ -125,6 +125,21 @@
     opacity: 0.8;
 }
 
-.btn-hotel {
-    
+.title-style {
+    padding-top: 10%;
 }
+
+.btn-style {
+    height: 54px;
+}
+
+.input-style {
+    padding-top: 10%;
+}
+
+/*
+.form-check-input {
+    width: 20px;
+    height: 25px;
+}
+*/
