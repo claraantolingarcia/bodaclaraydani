@@ -115,14 +115,20 @@
 }
 
 .header-image {
-    background-color: rgba(0,0,0,0.8);
-    background-image: url(../images/bg_1.jpg);
-    filter: brightness(0.6);
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/bg_1.jpg);
+}
+
+.header-text {
+    color: white;
 }
 
 .foot-image {
     background-image: url(../images/bg_1.jpg);
-    opacity: 0.8;
 }
 
 .title-style {
