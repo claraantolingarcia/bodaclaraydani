@@ -7,8 +7,11 @@
     $surname = $_POST["surname"];
     $option = 4;    // 0 -> nada ; 1 -> ida ; 2 -> vuelta ; 3 -> ida y vuelta ; 4 -> error
 
+    $message = "";
+
     if (!$name || $name == "" || !$surname || $surname == "") {
-        echo 'nombre o apellido no válidos';
+        $message = 'nombre o apellido no validos';
+        echo $message;
     } else {
         
         if (isset($_POST["ida"]) == "ida" && isset($_POST["vuelta"]) == "vuelta") {
@@ -20,15 +23,18 @@
         }
         
         if (!$option || $option == 4) {
-            echo 'opción no válida';
+            $message = 'opcion no valida';
+            echo $message;
         } else {
             $insert = "INSERT INTO Bus (name, surname, options) VALUES ('$name', '$surname', '$option')";
             $result = mysqli_query($con, $insert);
             
             if (!$result) {
-                echo 'error al guardar';
+                $message = 'error al guardar';
+                echo $message;
             } else {
-                echo 'Guardado!!';
+                $message = 'Guardado!!';
+                echo $message;
             }
         }
 

@@ -5,15 +5,20 @@
     
     $song = $_POST["song"];
 
+    $message = "";
+
     if (!$song or $song == "") {
-        echo 'la cancion no es valida';
+        $message = 'la cancion no es valida';
+        echo $message;
     } else {
         $insert = "INSERT INTO Songs (name) VALUES ('$song')";
         $result = mysqli_query($con, $insert);
         if (!$result) {
-            echo 'error al insertar la cancion';
+            $message = 'error al insertar la cancion';
+            echo $message;
         } else {
-            echo 'cancion insertada!';
+            $message = 'cancion insertada!';
+            echo $message;
         }
     }
 
