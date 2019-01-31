@@ -143,6 +143,10 @@
     padding-top: 10%;
 }
 
+.input-right {
+    padding-left: 20%;
+}
+
 /*
 .form-check-input {
     width: 20px;
