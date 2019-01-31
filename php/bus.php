@@ -40,6 +40,9 @@
 
     }
 
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    exit;
+
     // Cerramos la conexion
     mysqli_close($con);
 

@@ -18,9 +18,11 @@
             echo $message;
         } else {
             $message = 'cancion insertada!';
-            echo $message;
         }
     }
+
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    exit;
 
     // Cerramos la conexion
     mysqli_close($con);
