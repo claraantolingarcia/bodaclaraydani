@@ -5,43 +5,34 @@
     src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'), url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'), url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: 'mrs_eaves';
     src: url('../fonts/mrs_eaves/MrsEavesOTItalic.otf');
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: 'monolite';
     src: url('../fonts/monolite/SignaturaMonoline.otf'), url('../fonts/monolite/SignaturaMonoline.ttf');
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: 'boulevard';
     src: url('../fonts/boulevard/Boulevard.otf');
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: 'queen';
     src: url('../fonts/saint_andrews_queen/SaintAndrewsQueen.ttf');
     font-weight: normal;
-  }
+}
   
 .index-stamp {
     display: block;
     margin: auto;
     height: 65%;
     width: 65%;
-}
-
-@media screen and (max-width: 480px) {
-    .index-stamp {
-        display: block;
-        margin: auto;
-        height: 85%;
-        width: 85%;
-    }
 }
 
 .fh5co-bg .index-img-foot{
@@ -56,13 +47,6 @@
     margin-bottom: 5%;
 }
 
-@media screen and (max-width: 480px) {
-    .normal-paragraph {
-        margin: 5%;
-        font-family: 'Work Sans', Arial;
-    }
-}
-
 .container .transport {
     margin-left: 15%;
 }
@@ -72,26 +56,6 @@
     margin: auto;
     height: 65%;
     width: 65%;
-}
-
-@media screen and (max-width: 480px) {
-    .container .transport {
-        margin-left: 0%;
-        margin-bottom: 0%;
-    }
-   
-    .car-img {
-        display: block;
-        margin-left: 25%;
-        height: 30%;
-        width: 30%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .fh5co-nav {
-        background-color: transparent;
-    }
 }
 
 .hotel {
@@ -153,3 +117,107 @@
     height: 25px;
 }
 */
+
+.map-style{
+    width: 472px;
+    height: 337px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------- MEDIA QUERY ------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .map-style{
+        width: 315px;
+        height: 337px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .fh5co-nav {
+        background-color: transparent;
+    }
+
+    .fh5co-nav-toggle {
+        position: fixed;
+        top: 0;
+    }
+
+    .container .transport {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+   
+    .car-img {
+        display: block;
+        margin-left: 25%;
+        height: 30%;
+        width: 30%;
+    }
+
+    .normal-paragraph {
+        margin: 5%;
+        font-family: 'Work Sans', Arial;
+    }
+
+    .index-stamp {
+        display: block;
+        margin: auto;
+        height: 85%;
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 667px) {
+    .map-style{
+        width: 506px;
+        height: 312px;
+    }
+
+    .car-img {
+        display: block;
+        margin-left: 25%;
+        height: 10%;
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 668px) and (max-width: 768px) {
+    .map-style {
+        width: 360px;
+        height: 390px;
+    }
+
+    .form-inline .form-control {
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .container .transport {
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+   
+    .car-img {
+        display: block;
+        margin-left: 25%;
+        height: 30%;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .col-md-offset-1 {
+        margin-left: 5%;
+    }
+
+    .map-style{
+        width: 389px;
+        height: 339px;
+    }
+}
+
