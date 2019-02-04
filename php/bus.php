@@ -3,15 +3,14 @@
     // Abrimos la conexion
     $con = mysqli_connect("localhost","lacasona_root","2505cd", "lacasona_boda");
     
-    $name = $_POST["name"];
-    $surname = $_POST["surname"];
+    $name = utf8_decode($_POST["name"]);
+    $surname = utf8_decode($_POST["surname"]);
     $option = 4;    // 0 -> nada ; 1 -> ida ; 2 -> vuelta ; 3 -> ida y vuelta ; 4 -> error
 
     $message = "";
 
     if (!$name || $name == "" || !$surname || $surname == "") {
-        $message = 'nombre o apellido no validos';
-        echo $message;
+        $message = 'ERROR: ' . $name . ' ' . $surname . ' ha intentado apuntarse al bus con la opcion: ' . $option . ' pero hay algun valor que no es valido' . PHP_EOL;
     } else {
         
         if (isset($_POST["ida"]) == "ida" && isset($_POST["vuelta"]) == "vuelta") {
@@ -23,22 +22,24 @@
         }
         
         if (!$option || $option == 4) {
-            $message = 'opcion no valida';
-            echo $message;
+            $message = 'ERROR: ' . $name . ' ' . $surname . ' ha intentado apuntarse al bus con la opcion: ' . $option . ' pero la opcion no es valida' . PHP_EOL;
         } else {
             $insert = "INSERT INTO Bus (name, surname, options) VALUES ('$name', '$surname', '$option')";
             $result = mysqli_query($con, $insert);
             
             if (!$result) {
-                $message = 'error al guardar';
-                echo $message;
+                $message = 'ERROR: ' . $name . ' ' . $surname . ' ha intentado apuntarse al bus con la opcion: ' . $option . ' y no se ha guardado bien en la base de datos la siguiente query: ' . $insert . PHP_EOL;
             } else {
-                $message = 'Guardado!!';
-                echo $message;
+                $message = $name . ' ' . $surname . ' se ha apuntado al bus con la opcion: ' . $option . PHP_EOL;
             }
         }
 
     }
+
+    // guardamos el mensaje en logs
+    $logs = fopen("logs_bus.txt", "ab");
+    fwrite($logs, $message);
+    fclose($logs);
 
     header('Location: ' . $_SERVER['HTTP_REFERER']);
     exit;
