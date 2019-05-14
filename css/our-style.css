@@ -136,6 +136,13 @@
     letter-spacing: 2px;
 }
 
+.important-text {
+    padding: 5px;
+    margin-right: 200px;
+    background-color: #C7E0C7;
+    border-radius: 10px;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------- MEDIA QUERY ------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -186,6 +193,10 @@
     .bus-stop {
         font-weight: bold;
     }
+
+    .important-text {
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 667px) {
@@ -203,6 +214,10 @@
 
     .bus-stop {
         font-weight: bold;
+    }
+    
+    .important-text {
+        margin-right: 0px;
     }
 }
 
@@ -233,6 +248,10 @@
     .bus-stop {
         font-weight: bold;
     }
+    
+    .important-text {
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -247,6 +266,10 @@
 
     .bus-stop {
         font-weight: bold;
+    }
+    
+    .important-text {
+        margin-right: 0px;
     }
 }
 
