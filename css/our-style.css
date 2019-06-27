@@ -36,7 +36,7 @@
 }
 
 .fh5co-bg .index-img-foot{
-    background-image: url(images/bg_1.jpg);
+    background-image: url(images/viernes/viernes7.jpeg);
     background: rgba(0, 0, 0, 0.4);
     opacity: 0.5;
 }
@@ -84,7 +84,7 @@
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
         ),
-        url(../images/bg_1.jpg);
+        url(../images/viernes/viernes1.jpeg);
 }
 
 .header-text {
@@ -92,7 +92,7 @@
 }
 
 .foot-image {
-    background-image: url(../images/bg_1.jpg);
+    background-image: url(../images/viernes/viernes7.jpeg);
 }
 
 .title-style {
