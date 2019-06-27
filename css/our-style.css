@@ -36,7 +36,7 @@
 }
 
 .fh5co-bg .index-img-foot{
-    background-image: url(images/viernes/viernes7.jpeg);
+    background-image: url(images/foot.jpg);
     background: rgba(0, 0, 0, 0.4);
     opacity: 0.5;
 }
@@ -78,13 +78,40 @@
     padding-top: 5%;
 }
 
-.header-image {
+.header-image-index {
     background-image: 
         linear-gradient(
-        rgba(0, 0, 0, 0.3),
+        hsla(0, 0%, 0%, 0.3),
         rgba(0, 0, 0, 0.3)
         ),
-        url(../images/viernes/viernes1.jpeg);
+        url(../images/bg_index.jpg);
+}
+
+.header-image-church {
+    background-image: 
+        linear-gradient(
+        hsla(0, 0%, 0%, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/bg_church.jpg);
+}
+
+.header-image-multimedia {
+    background-image: 
+        linear-gradient(
+        hsla(0, 0%, 0%, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/bg_multimedia.jpg);
+}
+
+.header-image-contact {
+    background-image: 
+        linear-gradient(
+        hsla(0, 0%, 0%, 0.3),
+        rgba(0, 0, 0, 0.3)
+        ),
+        url(../images/bg_contact.jpg);
 }
 
 .header-text {
@@ -92,7 +119,7 @@
 }
 
 .foot-image {
-    background-image: url(../images/viernes/viernes7.jpeg);
+    background-image: url(../images/foot.jpg);
 }
 
 .title-style {
@@ -196,6 +223,15 @@
 
     .important-text {
         margin-right: 0px;
+    }
+
+    .header-image-church {
+        background-image: 
+            linear-gradient(
+            hsla(0, 0%, 0%, 0.3),
+            rgba(0, 0, 0, 0.3)
+            ),
+            url(../images/bg_church_mobile.jpg);
     }
 }
 
